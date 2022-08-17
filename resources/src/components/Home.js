@@ -26,8 +26,12 @@ function Home() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">Link</Nav.Link>
+                  <Nav.Link href="/">Home</Nav.Link>
+                  <Nav.Link href="/tutorials">Tutorials</Nav.Link>
+                  <Nav.Link href="/youtube">Youtube</Nav.Link>
+                  <Nav.Link href="/frontend">Frontend</Nav.Link>
+                  <Nav.Link href="/backend">Backend</Nav.Link>
+                  <Nav.Link href="/fullstack">FullStack</Nav.Link>
                   <NavDropdown
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
